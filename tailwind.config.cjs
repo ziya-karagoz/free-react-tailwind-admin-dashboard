@@ -51,6 +51,22 @@ module.exports = {
       '3xl': '2000px',
       ...defaultTheme.screens,
     },
+    borderRadius: {
+      none: '0',
+      sm: '0.375rem',
+      DEFAULT: '0.475rem',
+      md: '0.5rem',
+      lg: '0.75rem',
+      full: '9999px',
+      '2xl': '1.25rem',
+      '3xl': '1.5rem',
+      '4xl': '2rem',
+      '5xl': '2.5rem',
+      '6xl': '3rem',
+      '7xl': '4rem',
+      '8xl': '5rem',
+      '9xl': '6rem',
+    },
     extend: {
       fontSize: {
         'title-xxl': ['44px', '55px'],

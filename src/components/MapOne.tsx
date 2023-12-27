@@ -1,13 +1,13 @@
 import jsVectorMap from 'jsvectormap';
 import 'jsvectormap/dist/css/jsvectormap.css';
 import { useEffect } from 'react';
-import '../js/us-aea-en';
+import '../js/turkey_1_mill_en';
 
 const MapOne = () => {
   useEffect(() => {
     const mapOne = new jsVectorMap({
       selector: '#mapOne',
-      map: 'us_aea_en',
+      map: 'turkey_1_mill_en',
       zoomButtons: true,
 
       regionStyle: {
@@ -32,7 +32,7 @@ const MapOne = () => {
 
       labels: {
         regions: {
-          render(code) {
+          render(code: any) {
             return code.split('-')[1];
           },
         },

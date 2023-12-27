@@ -23,7 +23,9 @@ const ECommerce = () => {
         <ChartOne />
         <ChartTwo />
         <ChartThree />
-        <MapOne />
+        <div className='col-span-12'>
+          <MapOne />
+        </div>
         <div className="col-span-12 xl:col-span-8">
           <TableOne />
         </div>
